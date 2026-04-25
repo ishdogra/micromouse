@@ -3,7 +3,7 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.portWin": "detect",
+  "idf.portWin": "COM3",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
   },
@@ -12,5 +12,6 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=c:\\Users\\ishan\\OneDrive\\Desktop\\ME235\\final_proj\\micromouse\\build"
-  ]
+  ],
+  "idf.flashType": "UART"
 }
